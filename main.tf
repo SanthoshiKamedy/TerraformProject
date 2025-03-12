@@ -7,7 +7,7 @@ variable "cidr" {
   default = "10.0.0.0/16"
 }
 
-resource "aws_key_pair" "example1" {
+resource "aws_key_pair" "example1" { 
   key_name   = "terraform-demo-jaanu-new"  # Replace with your desired key name
   public_key = file("/home/codespace/.ssh/my-key.pub")  # Replace with the path to your public key file
 }
