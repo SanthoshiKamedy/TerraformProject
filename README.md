@@ -3,7 +3,7 @@ Terraform
 how to get ssh keys private and public
 
 
-ssh-keygen -t rsa -b 4096 -f ~/.ssh/my-key
+ssh-keygen -t rsa -b 4096 -f ~/.ssh/my-key 
 
 Certainly, let's delve deeper into the file, remote-exec, and local-exec provisioners in Terraform, along with examples for each.
 
